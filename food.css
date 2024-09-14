@@ -1,0 +1,78 @@
+*
+{
+    margin:0px;
+    padding:0px;
+}
+html{
+    scroll-behavior:smooth;
+}
+section
+{
+    width:100px;
+    height:100vh;
+}
+section nav
+{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    position: fixed;
+    right:0;
+    left:0;
+    background:whitesmoke;
+    box-shadow:0 0 10px rgba(0,0,0.5);
+    z-index: 1000;
+}
+section nav .logo img
+{
+  width: 100px;
+  cursor:pointer;
+  margin:7px,0;
+}
+section nav ul
+{
+    list-style: none;
+}
+section nav ul li
+{
+    display:inline-block;
+    margin:0,15px;
+}
+section nav ul li a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size:17px;
+}
+section nav ul li a::after
+{
+    content: '';
+    text-align: center;
+    width: 100px;
+    height: 2px;
+    display: block;
+}
+section nav.icon
+{
+    font-size: 18px;
+    color:black;
+    margin:0 5px;
+    cursor: pointer;
+    transition:0.3s;
+}
+section .main_image img
+{
+    width:700px;
+    position: relative;
+    left:70px;
+
+}
+section.main_btn
+{
+    background: orange;
+    position:relative;
+    bottom:30px;
+    width:30px;
+    
+}
